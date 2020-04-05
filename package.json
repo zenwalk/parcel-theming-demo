@@ -1,0 +1,13 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "emotion-theming": "^10.0.7",
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}

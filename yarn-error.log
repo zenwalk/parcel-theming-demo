@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Users\Esri\scoop\apps\nodejs-lts\current\node.exe C:\Users\Esri\scoop\apps\yarn\current\Yarn\bin\yarn.js add react react-dom parcel-bunder
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ZeroTier\One\;C:\Program Files\PowerShell\6-preview\preview;C:\Program Files (x86)\Bitvise SSH Client;C:\HashiCorp\Vagrant\bin;C:\Program Files\PowerShell\6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\Esri\scoop\apps\nodejs-lts\current\bin;C:\Users\Esri\scoop\apps\nodejs-lts\current;C:\Users\Esri\scoop\apps\yarn\current\Yarn\bin;C:\Users\Esri\scoop\apps\yarn\current\bin;C:\Users\Esri\scoop\apps\python\current\scripts;C:\Users\Esri\AppData\Local\Programs\Python\Launcher\;C:\Users\Esri\go\bin;C:\Users\Esri\scoop\apps\nmap\current\bin;C:\Users\Esri\scoop\shims;C:\Users\Esri\AppData\Local\Microsoft\WindowsApps;C:\Users\Esri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Esri\AppData\Local\Microsoft\WindowsApps;C:\Users\Esri\AppData\Local\hyper\app-2.1.1\resources\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://r.cnpmjs.org/parcel-bunder: not_found
+      at Request.params.callback [as _callback] (C:\Users\Esri\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:65364:18)
+      at Request.self.callback (C:\Users\Esri\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Users\Esri\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at Gunzip.<anonymous> (C:\Users\Esri\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at Gunzip.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "parcel-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
